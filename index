@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro H&CIA</title>
+</head>
+<body>
+    <form>
+        <fieldset>
+            <legend>Dados do Usuário</legend>
+
+            <label for="nome">Nome completo:</label>
+            <input type="text" id="nome" name="nome">
+            <br><br>
+
+            <label for="email">Endereço de e-mail:</label>
+            <input type="email" id="email" name="email">
+            <br><br>
+
+            <label for="senha">Crie uma senha:</label>
+            <input type="password" id="senha" name="senha">
+            <br><br>
+
+            <label for="mensagem">Mensagem adicional:</label>
+            <br>
+            <textarea id="mensagem" name="mensagem" rows="10" cols="80" placeholder="Digite sua mensagem aqui..."></textarea>
+            <br><br>
+
+            <label for="pais">Selecione seu país de origem:</label>
+            <select id="pais" name="pais">
+                <option value="" selected disabled>-- Selecione --</option>
+                <option value="BR">Brasil</option>
+                <option value="PT">Portugal</option>
+                <option value="US">Estados Unidos</option>
+                <option value="JP">Japão</option>
+                <option value="FR">França</option>
+                <option value="ES">Espanha</option>
+                <option value="IT">Itália</option>
+                <option value="DE">Alemanha</option>
+                <option value="CN">China</option>
+                <option value="IN">Índia</option>
+                <option value="RU">Rússia</option>
+                <option value="AU">Austrália</option>
+                <option value="CA">Canadá</option>
+                <option value="MX">México</option>
+                <option value="AR">Argentina</option>
+                <option value="CO">Colômbia</option>
+                <option value="ZA">África do Sul</option>
+            </select>
+            <br><br>
+
+            <button type="submit">Confirmar Envio</button>
+            <button type="reset">Redefinir Campos</button>
+        </fieldset>
+    </form>
+</body>
+</html>
